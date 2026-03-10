@@ -82,6 +82,7 @@ export default function LandingPage() {
                 id: "4",                value: "10000+",                description: "Happy patients treated successfully"
               }
             ]}
+            metricsAnimation="entrance-slide"
             useInvertedBackground={false}
           />
         </div>
@@ -153,6 +154,7 @@ export default function LandingPage() {
             ]}
             imageSrc="http://img.b2bpic.net/free-photo/professional-dentist-team-checking-patient-danture-analyzing-teeth-infection-discussing-oral-hygiene-dental-consultation-stomatological-office-concept-stomatology-medicine_482257-39551.jpg"
             imagePosition="right"
+            mediaAnimation="entrance-slide"
             buttons={[
               {
                 text: "WhatsApp Us",                href: "https://wa.me/919908797444"
